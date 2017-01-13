@@ -1,0 +1,11 @@
+#form {
+    display: inline;
+}
+
+#file-input {
+    display: inline;
+}
+
+#submit-btn {
+    -webkit-appearance: push-button;
+}

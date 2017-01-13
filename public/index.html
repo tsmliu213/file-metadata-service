@@ -4,12 +4,18 @@
 <head>
   <title>File Metadata Service</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="container">
     <div class="row">
       <h1>File Metadata Service<hr/></h1>
+      
+      <form id="form" action="/upload" method="post" enctype="multipart/form-data">
+        <input id="file-input" name="uploadfile" type="file">
+        <input id="submit-btn" type="submit" value="Submit">
+      </form>
     </div>
     
     <br>
@@ -19,7 +25,6 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="./script.js"></script>
 </body>
 
 </html>
